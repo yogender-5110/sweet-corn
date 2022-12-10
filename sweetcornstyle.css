@@ -1,0 +1,238 @@
+
+
+*{margin: 0; padding: 0; }
+html{scroll-behavior: smooth;}
+body{background-color: ; background-position: center; background-size: cover; box-sizing: border-box; font-family: 'Noto Serif';}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-local/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('font-local/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-local/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url('font-local/PlayfairDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-local/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('font-local/PlayfairDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font-loca/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('font-loca/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif-Italic.woff2') format('woff2'),
+        url('font-local/NotoSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif-BoldItalic.woff2') format('woff2'),
+        url('font-local/NotoSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif-Bold.woff2') format('woff2'),
+        url('font-local/NotoSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif.woff2') format('woff2'),
+        url('font-local/NotoSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.header-part .navbar{padding: 20px 10px; background-color: #e53e29;}
+.nav-item:hover {transform: scale(1.1);transition:all 0.3s ease-in-out;}
+
+
+ 
+
+ .product-area{width: 100%; height: auto; border 1px solid darkred; padding 25px;}
+.product-area .col-md-3{border 1px solid darkred; border-right: 1px solid #ddd; border-top: 1px solid #ddd;}
+.icon i{font-size: 25px; border: 3px dotted #e53e29; padding: 20px; color: #e53e29; border-radius: 50%; width: 75px ; height: 75px;}
+.icon a{text-decoration: none; color: #111;}
+.icon {text-align: center; padding:50px  25px 25px 25px;border-right 1px solid #ddd; border 1px solid red;}
+.icon p{padding: 35px 0; font-size: 15px;}
+.product-area .col-md-3:last-child{border-right: 0;}
+.icon:hover{transform: scale(1.1); transition: all 0.35s ease-in-out;}
+@media(max-width: 768px){ .product-area .col-md-3{border-right: 0} }
+
+
+.product-list{width: 100%; height: auto; border 2px solid red; padding:25px ; border-top: 1px solid #ddd;}
+.product-list .text{width: 100%; height: auto; padding: 12px ; border 1px solid red; background-color: #e53e29; color: #fff; font-size: 25px;}
+.product-list .col-md-2{ text-align: center; padding-left: 0px; border 1px solid red;padding-right: 0; padding-top: 25px; overflow: hidden; }
+.product-list .col-md-2:hover{transform: scale(1.1); transition:all 0.3s ease-in-out;}
+.product-list .container{overflow: hidden; border 1px solid green; padding: 0;}
+.product-list .p{padding: 25px; font-size: 14px;}
+.product-list .col-md-2 .a{border: 1px solid #ddd; overflow: hidden;}
+
+.product-list select{float: right; background-color: #e53e29; border:1px solid red; padding 12px; color: #fff; outline: none;  }
+.product-list select option{font-size: 18px;   width: auto;}
+.product-list .row{margin-right: 0; margin-left: 0;}
+.product-list .card{ padding: 25px 0 0 0; margin-left: 0; border 1px solid #ddd; overflow: hidden; box-shadow: 0 0 25px #ddd; border: none;}
+.product-list .card:hover{transform: scale(1.1); transition: all 0.3s ease-in-out; overflow: hidden;}
+.product-list .card-title{font-size: 15px; }
+.product-list .col-md-3{padding-left: 0; padding-right: 0;} 
+.product-list .com{padding: 15px ; border 1px solid darkred; overflow: hidden;}
+.product-list .card-img-top{width: 100%; height: 200px; border 12px solid orange; cursor: pointer;}
+.product-list .card-img-top img{width: 100%; height: 100%; display: block; }
+.product-list .all-div{padding: 15px 0; border 1px solid red;}
+product-list card-img-top:hover> second-img1{visibility visible;}
+.second-img1{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; overflow: hidden;}
+.second-img1 img{width: 100%; height: 100%; display: block;}
+
+.second-img2{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img2 img{width: 100%; height: 100%; display: block;}
+
+.second-img3{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img3 img{width: 100%; height: 100%; display: block;}
+
+.second-img4{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img4 img{width: 100%; height: 100%; display: block;}
+
+.second-img5{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img5 img{width: 100%; height: 100%; display: block;}
+
+.second-img6{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img6 img{width: 100%; height: 100%; display: block;}
+
+.second-img7{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img7 img{width: 100%; height: 100%; display: block;}
+
+.second-img8{border 12px solid red; position: absolute; top 0; width: 100% ; height: 200px; display: ; pointer-events: none; }
+.second-img8 img{width: 100%; height: 100%; display: block;}
+
+@media(max-width: 600px){.product-list select{float: none; font-size: 16px} }
+.news{width: 100% ; height: auto; border 2px solid green; padding: 25px;}
+
+
+
+.newsletter{width: 100%; border 1px solid yellow; padding 35px 0 0 0 ;text-align: center; background-color: #e53e29;  height: auto;}
+.news{width: 100% ; height: auto; border 2px solid green; padding: 25px;}
+.news .subs{width: auto; padding: 10px; color: #fff;}
+.news input{padding: 10px ; width:40% ; border 1px solid #676d79; outline: none; border: none; margin-bottom: 25px;}
+.news a{padding: 10px 25px ; border: 1px solid #fff; color: #fff; text-decoration: none;  }
+.news a:hover{background-color: #fff; color: #000;}
+
+@media(max-width: 768px){.news input{padding: 10px ; width:100% ;}.news a{}}
+
+.footer-part{width: 100%; height: auto; border 1px solid darkred; padding: 50px 0; background-color: #292728;}
+.footer-part .img-foot{width: auto; height: auto; border 2px solid darkred; padding: 25px;}
+.footer-part .img-foot img{width: 100%; height: 100%; display: block;}
+.li-define{width: 100%;  }
+.li-define li a{text-decoration: none; color: #fff; margin-top 5px; font-size: 14px; }
+.li-define li{padding: 2px; list-style: none; }
+li-define li:hover{transform: scale(1.1); transition: all 0.35s ease-in-out; }
+.li-define li a:hover{color: #676d79 ; }
+ .p2{color: #fff; border 1px solid green; width: auto; font-size: 14px;}
+.p2 i{font-size: 25px; padding: 5px; }
+.p2 a{text-decoration: none; color: goldenrod; border-bottom: 1px solid #fff;}
+
+
